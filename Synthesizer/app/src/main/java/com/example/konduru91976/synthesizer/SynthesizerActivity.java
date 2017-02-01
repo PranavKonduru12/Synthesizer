@@ -18,16 +18,16 @@ public class SynthesizerActivity extends AppCompatActivity {
 
         button1 = (Button)findViewById(R.id.button1);
         button2 = (Button)findViewById(R.id.button2);
-        mpE = mediaPlayer.create(this,R.raw.scalee);
+        //mpE = mediaPlayer.create(this,R.raw.scalee);
     }
 
     public void onButton1(View view) {
         Log.i(TAG, "Button1 clicked");
-        Log.e(TAG, "Button 1 clicked");
-        mpE.start();
+        /*Log.e(TAG, "Button 1 clicked");
+        mpE.start();*/
     }
     public void onButton2(View view) {
         Log.i(TAG, "Button2 clicked");
-        mpE.start();
+        //mpE.start();
     }
 }
